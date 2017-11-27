@@ -1,0 +1,14 @@
+{
+    "bindings": [
+        {
+            "type": "httpTrigger",
+            "methods": [
+                "GET"
+            ],
+            "authLevel": "anonymous",
+            "name": "req"
+        }
+    ],
+    "scriptFile": "../functions.dll",
+    "entryPoint": "HttpTriggerCore.HttpTrigger.Run"
+}
