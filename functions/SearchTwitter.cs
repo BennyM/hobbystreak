@@ -60,7 +60,7 @@ namespace HobbyStreak.Functions
                 var access_token = Newtonsoft.Json.Linq.JObject.Parse(responseToken)["access_token"];
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", $"{access_token}");
                 int counter = 0;
-                var currentRunTime = DateTime.UtcNow.ToString("yyyy-MM-dd-hh:mm:ss");
+                var currentRunTime = DateTime.UtcNow.ToString("yyyy-MM-dd-HH:mm:ss");
                 IEnumerable<dynamic> statusses = null;
                 string nextResultsUrl = refreshUrl.Value;
                 do
