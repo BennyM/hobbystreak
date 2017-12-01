@@ -2,6 +2,9 @@
     "IsEncrypted": false,
     "Values": {
         "AzureWebJobsStorage": "",
-        "AzureWebJobsDashboard": ""
+        "AzureWebJobsDashboard": "",
+        "hobbystreakblob": "",
+        "TwitterKey": "",
+        "TwitterSecret": ""
     }
 }
